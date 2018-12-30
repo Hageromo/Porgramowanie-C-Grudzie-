@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C ++/Zadania z C/2.1/main.c
+limits.h
+-
+stdlib.h
+-
+stdio.h
+-
+stdbool.h
+-
+

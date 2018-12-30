@@ -1,0 +1,3 @@
+D:/C ++/Zadania z C/3.44/cmake-build-debug/CMakeFiles/3_44.dir
+D:/C ++/Zadania z C/3.44/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C ++/Zadania z C/3.44/cmake-build-debug/CMakeFiles/rebuild_cache.dir
