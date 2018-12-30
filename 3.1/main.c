@@ -25,7 +25,7 @@ int main()
 
 }
 
-//Napisać metodę int getLength(char *str) ,
+//3.1 Napisać metodę int getLength(char *str) ,
 // w której WŁASNORECZNIE (nie wolno korzystać z metody strlen() )
 //przeliczony zostanie rozmiar łańcucha
 // (bez null - terminatora).Dla przykładu dla „Hello!" wynik powinien wynosić 6.

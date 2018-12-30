@@ -1,11 +1,40 @@
-"D:\Nowy folder\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\C ++\Zadania z C\3.1"
+"D:\Nowy folder\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Allien\Desktop\STUDIA\Programowanie\Zadania\2.Grudzień\Zadania z C grudzień\3.1"
 -- The C compiler identification is GNU 4.9.2
 -- Check for working C compiler: D:/C ++/CodeBlocks/MinGW/bin/gcc.exe
--- Check for working C compiler: D:/C ++/CodeBlocks/MinGW/bin/gcc.exe -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: D:/C ++/Zadania z C/3.1/cmake-build-debug
+-- Check for working C compiler: D:/C ++/CodeBlocks/MinGW/bin/gcc.exe -- broken
+CMake Error at D:/Nowy folder/CLion 2018.2.4/bin/cmake/win/share/cmake-3.12/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "D:/C ++/CodeBlocks/MinGW/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/Allien/Desktop/STUDIA/Programowanie/Zadania/2.GrudzieĹ„/Zadania z C grudzieĹ„/3.1/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"D:/C ++/CodeBlocks/MinGW/bin/mingw32-make.exe" "cmTC_c7063/fast"
+    D:/C ++/CodeBlocks/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c7063.dir\build.make CMakeFiles/cmTC_c7063.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/Users/Allien/Desktop/STUDIA/Programowanie/Zadania/2.GrudzieËť/Zadania z C grudzieËť/3.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_c7063.dir/testCCompiler.c.obj
+    "D:\C ++\CodeBlocks\MinGW\bin\gcc.exe"    -o CMakeFiles\cmTC_c7063.dir\testCCompiler.c.obj   -c "C:\Users\Allien\Desktop\STUDIA\Programowanie\Zadania\2.Grudzieâ”ĽĂ¤\Zadania z C grudzieâ”ĽĂ¤\3.1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+    gcc.exe: error: C:\Users\Allien\Desktop\STUDIA\Programowanie\Zadania\2.Grudzie+Ĺ„\Zadania z C grudzie+Ĺ„\3.1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    CMakeFiles\cmTC_c7063.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_c7063.dir/testCCompiler.c.obj' failed
+    mingw32-make.exe[1]: *** [CMakeFiles/cmTC_c7063.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'C:/Users/Allien/Desktop/STUDIA/Programowanie/Zadania/2.GrudzieËť/Zadania z C grudzieËť/3.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:120: recipe for target 'cmTC_c7063/fast' failed
+    mingw32-make.exe: *** [cmTC_c7063/fast] Error 2
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Allien/Desktop/STUDIA/Programowanie/Zadania/2.GrudzieĹ„/Zadania z C grudzieĹ„/3.1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/Allien/Desktop/STUDIA/Programowanie/Zadania/2.GrudzieĹ„/Zadania z C grudzieĹ„/3.1/cmake-build-debug/CMakeFiles/CMakeError.log".

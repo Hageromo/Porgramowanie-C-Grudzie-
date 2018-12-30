@@ -1,0 +1,18 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Allien/Desktop/STUDIA/Programowanie/Zadania/2.Grudzień/Zadania z C grudzień/3.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/C ++/CodeBlocks/MinGW/bin/mingw32-make.exe" "cmTC_c7063/fast"
+D:/C ++/CodeBlocks/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_c7063.dir\build.make CMakeFiles/cmTC_c7063.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Allien/Desktop/STUDIA/Programowanie/Zadania/2.Grudzie˝/Zadania z C grudzie˝/3.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7063.dir/testCCompiler.c.obj
+"D:\C ++\CodeBlocks\MinGW\bin\gcc.exe"    -o CMakeFiles\cmTC_c7063.dir\testCCompiler.c.obj   -c "C:\Users\Allien\Desktop\STUDIA\Programowanie\Zadania\2.Grudzie┼ä\Zadania z C grudzie┼ä\3.1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+gcc.exe: error: C:\Users\Allien\Desktop\STUDIA\Programowanie\Zadania\2.Grudzie+ń\Zadania z C grudzie+ń\3.1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+CMakeFiles\cmTC_c7063.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_c7063.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_c7063.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Allien/Desktop/STUDIA/Programowanie/Zadania/2.Grudzie˝/Zadania z C grudzie˝/3.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_c7063/fast' failed
+mingw32-make.exe: *** [cmTC_c7063/fast] Error 2
+
+
