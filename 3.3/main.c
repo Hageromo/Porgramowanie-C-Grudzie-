@@ -29,3 +29,7 @@ int main() {
 
     return 0;
 }
+
+
+//3.3.Napisać metodę bool containsDigits(char * str), która zwróci informację, czy w danym stringu znajduje się
+//jakakolwiek cyfra.Dla przykładu : „asdfgzxcv" -> false, „asdf5asdf" -> true
